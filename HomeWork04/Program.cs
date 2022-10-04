@@ -49,15 +49,15 @@ int[] NumberOfVisitorsPerHours()
     return PeopleInShop;
 }
 
-int FindMax(int[] A)
+int FindMax(int[] a)
 {
-    max = A[0];
+    max = a[0];
     int maxIndex=0;
     for(int i=0;i<8;i++)
     {
-        if (A[i]>max) 
+        if (a[i]>max) 
         {
-            max=A[i];
+            max=a[i];
             maxIndex=i;
         }
     }
