@@ -16,7 +16,8 @@ int RandomNumbers(int ElementNumbers, int min, int max)
   int sumElements = 0;
   Console.Write("New array: ");
 
-    for (int i = 0; i <randomNumber.Length; i++ ){
+    for (int i = 0; i <randomNumber.Length; i++ )
+    {
       randomNumber[i] = new Random().Next(min, max);
 
       Console.Write(randomNumber[i] + " ");
